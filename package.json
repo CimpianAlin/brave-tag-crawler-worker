@@ -1,0 +1,24 @@
+{
+  "name": "brave-tag-crawler-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "make lambda",
+    "lint": "node node_modules/eslint/bin/eslint.js .",
+    "lint:fix": "node node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "author": "Peter Snyder",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.313.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mysql": "^2.16.0",
+    "promise-mysql": "^3.3.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
